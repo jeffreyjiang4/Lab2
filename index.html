@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past 3 Days</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+</head>
+<body>
+    <header>
+        <div>Days</div>
+
+        <nav>
+            <ul>
+                <li><a href="#Thursday">Thursday</a></li>
+                <li><a href="#Friday">Friday</a></li>
+                <li><a href="#Saturday">Saturday</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id ="Thursday">Thursday</h1>
+        <h2>04/08/2020</h2>
+        
+        <h3>highlights</h3>
+        <ol>
+            <li>got a lot of work done</li>
+            <li>ate good pasta</li>
+        </ol>
+
+        <h3>lowlights</h3>
+        <ul>
+            <li>very tired</li>
+            <li>lost money in market</li>
+        </ul>
+
+        <h3>summary</h3>
+        <p>Overall, today was a <b class="term">good day</b>, <br>
+            was able to get done everything I wanted to.</p>
+
+        <section>
+           <img
+                src ="koala.jpg"
+                alt = "tired"
+                width="250"
+                />
+        </section>
+
+        <div></div>
+        <span></span>
+
+        <hr>
+
+        <h1 id="Friday">Friday</h1>
+        <h2>04/09/2020</h2>
+
+        <h3>highlights</h3>
+        <ol>
+            <li>went <strong>BOWLING!</strong></li>
+            <li>spent quality time with friends</li>
+            <li>ate sushi</li>
+        </ol>
+
+        <h3>lowlights</h3>
+        <ul>
+            <li><i>absolutely</i> nothing</li>
+        </ul>
+
+        <h3>summary</h3>
+        <p> Today was a very <em>relaxing</em> day. <br>
+        I'm glad I was able to spend it with quality friends.</p>
+
+        <section>
+            <h3>today's beat</h3>
+            <audio controls>
+                <source src = "Saturday.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <hr>
+
+        <h1 id="Saturday">Saturday</h1>
+        <h2>04/10/2020</h2>
+
+        <h3>highlights</h3>
+        <ol>
+            <li>my girlfriend got her 2nd dose!</li>
+            <li>began a new novel</li>
+            <li>very relaxing day in general</li>
+        </ol>
+
+        <h3>lowlights</h3>
+        <ul>
+            <li>chicken from restaurant was raw</li>
+        </ul>
+
+        <details>
+            <summary>Summary</summary>
+            Today was a relaxing day. Glad I was able to <br>
+            spend quality time with my girlfriend.
+        </details>
+
+        <section>
+            <h3>vaccination center</h3>
+            <video controls width="250">
+                <source src="Vaccine.MP4" type="video/mp4">
+            </video>
+        </section>
+    </main>
+    
+    <hr>
+
+    <footer>
+        <form>
+            <label for="comments">Share thoughts here:
+            </label>
+
+            <textarea id="comments" name="comments" rows="5" cols="33">
+            </textarea>
+        </form>
+        <br>
+        <br>
+        <br>
+        <form>
+            <fieldset>
+                <legend>3 Day Journal</legend>
+                <input type="radio" id = "Day 1" name ="Day 1">
+                <label for="Day 1">Day 1</label>
+                <br>
+                <input type="radio" id = "Day 2" name ="Day 2">
+                <label for="Day 2">Day 2</label>
+                <br>
+                <input type="radio" id = "Day 3" name ="Day 3">
+                <label for="Day 3">Day 3</label>
+            </fieldset>
+
+            <br>
+
+            <label for="favorite day">Choose a day:</label>
+            <select name="days" id="favorite day">
+                <option value="Day 1">Day 1</option>
+                <option value="Day 2">Day 2</option> 
+                <option value="Day 3">Day 3</option>
+            </select>
+
+            <br> 
+            <br>
+
+            <label for= "contact">Best way to contact:</label>
+            <input list="contact methods" id="contact" name ="contact"/>
+            <datalist id="contact methods">
+                <option value="Mobile">
+                <option value="Email">
+            </datalist>
+
+            <br>
+            <br>
+            
+            <button class="favorite styled" type="button">
+                Subscribe
+            </button>
+        </form>
+    </footer>
+
+
+
+
+
+</body>
+</html>
